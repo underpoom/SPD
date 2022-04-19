@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border: 2px solid rgb(20, 241, 68);
+        }
+    </style>
+</head>
+<body>
+    <a href="WeebKing.html">
+        <img src="image/Picture1.png" alt="Homapage" width="1080px">
+    </a>
+    <hr>
+
+    <h1 align="center">Register</h1>
+    <form align="center" style="border: 2px solid red;;">
+        <div>
+            <label for="First name">Surname </label>
+            <input type="text" name="fname" placeholder="input your first name" > 
+        </div>
+
+        <div>
+            <label for="Last name">Lastname </label>
+            <input type="text" name="lname" placeholder="input your last name" >
+        </div>
+
+        <div>
+            <label for="Email">Email </label>
+            <input type="email" name="email" placeholder="ex. naveeeharn@gmail.com" >
+        </div>
+
+        <div>
+            <label for="Password">Password </label>
+            <input type="password" name="password" placeholder="only a-z A-Z" required>
+        </div>
+
+        <div>
+            <label for="">ที่อยู่</label>
+            <textarea name="" id="" cols="25" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="">Age</label>
+
+            <!--<input type="date" name="age" min="0">-->
+            <input type="number" name="age" min=0">
+        </div>
+
+        <div>
+            <label for="">Telephone</label>
+            <input type="tel" name="telephone">
+        </div>
+
+        <div>
+            <label for="">Education</label>
+            <select name="edu" id="">
+                <option value="มัธยม">มัธยม</option>
+                <option value="ปริญญาตรี">ปริญญาตรี</option>
+                <option value="ปริญญาโท" selected>ปริญญาโท</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+        </div>
+
+        <div>
+            <label for="">Favourite</label>
+            <input type="checkbox" name="fav" >Zero2
+            <input type="checkbox" name="fav" >002
+            <input type="checkbox" name="fav" >0Two
+            <input type="checkbox" name="fav" >00
+        </div>
+
+        <div>
+            <label for="">Choose your profile avatar</label>
+            <input type="file">
+        </div>
+
+        <div>
+            <input type="submit" value="submit"">
+        </div>
+
+        <span style="border:2px solid red;">tteset</span>
+
+
+
+    </form>
+</body>
+</html>
